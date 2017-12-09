@@ -1,0 +1,34 @@
+package include;
+
+public class Carrera {
+
+    private int ClaveCarre;
+    private String Nombre;
+
+
+    public Carrera(int claveCarre, String nombre) {
+        ClaveCarre = claveCarre;
+        Nombre = nombre;
+
+
+
+    }
+
+    public int getClaveCarre() {
+        return ClaveCarre;
+    }
+
+    public void setClaveCarre(int claveCarre) {
+        ClaveCarre = claveCarre;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String nombre) {
+        Nombre = nombre;
+    }
+
+
+}
